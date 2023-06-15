@@ -1,0 +1,8 @@
+<div>
+    <h1>Dynamic Component Loading - Vue.js</h1>
+    <lazyLoad />
+    <button @click="loginIn">Load Ad</button>
+    <div v-if="showComponent">
+      <loginIn />
+    </div>
+  </div>
